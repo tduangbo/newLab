@@ -7,6 +7,8 @@ import javax.swing.JFrame;
  * @author kevinagary
  *
  */
+
+// just for testing
 final class Main {
 	/**
 	 * Private constructor to address STYLE issue.
