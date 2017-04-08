@@ -21,6 +21,9 @@ public class Savings extends Account {
 			if (balance >= 0.0f) {
 				setState(State.OPEN);
 			}
+			// Fix:	D#19, Savings.java ( deposit method), FD (method only return false); added return true
+			// to make logical sense
+			return true;
 		}
 		return false;
 	}
